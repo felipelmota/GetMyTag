@@ -14,6 +14,10 @@
 		353A857F1E6B786F00278195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353A857D1E6B786F00278195 /* LaunchScreen.storyboard */; };
 		353A858A1E6B786F00278195 /* GetMyTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85891E6B786F00278195 /* GetMyTagTests.swift */; };
 		353A85951E6B786F00278195 /* GetMyTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85941E6B786F00278195 /* GetMyTagUITests.swift */; };
+		353A85A61E6B791400278195 /* TagsColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85A21E6B791400278195 /* TagsColorsViewController.swift */; };
+		353A85A71E6B791400278195 /* TagsColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85A31E6B791400278195 /* TagsColorsTableViewController.swift */; };
+		353A85A81E6B791400278195 /* PhotoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85A41E6B791400278195 /* PhotoColor.swift */; };
+		353A85A91E6B791400278195 /* TagsColorTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85A51E6B791400278195 /* TagsColorTableData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		353A85901E6B786F00278195 /* GetMyTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetMyTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		353A85941E6B786F00278195 /* GetMyTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMyTagUITests.swift; sourceTree = "<group>"; };
 		353A85961E6B786F00278195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353A85A21E6B791400278195 /* TagsColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsColorsViewController.swift; sourceTree = "<group>"; };
+		353A85A31E6B791400278195 /* TagsColorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsColorsTableViewController.swift; sourceTree = "<group>"; };
+		353A85A41E6B791400278195 /* PhotoColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoColor.swift; sourceTree = "<group>"; };
+		353A85A51E6B791400278195 /* TagsColorTableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsColorTableData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +107,12 @@
 			children = (
 				353A85741E6B786F00278195 /* AppDelegate.swift */,
 				353A85761E6B786F00278195 /* ViewController.swift */,
-				353A85781E6B786F00278195 /* Main.storyboard */,
+				353A85A21E6B791400278195 /* TagsColorsViewController.swift */,
+				353A85A31E6B791400278195 /* TagsColorsTableViewController.swift */,
+				353A85A51E6B791400278195 /* TagsColorTableData.swift */,
+				353A85A41E6B791400278195 /* PhotoColor.swift */,
 				353A857B1E6B786F00278195 /* Assets.xcassets */,
+				353A85781E6B786F00278195 /* Main.storyboard */,
 				353A857D1E6B786F00278195 /* LaunchScreen.storyboard */,
 				353A85801E6B786F00278195 /* Info.plist */,
 			);
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353A85A61E6B791400278195 /* TagsColorsViewController.swift in Sources */,
+				353A85A81E6B791400278195 /* PhotoColor.swift in Sources */,
 				353A85771E6B786F00278195 /* ViewController.swift in Sources */,
+				353A85A91E6B791400278195 /* TagsColorTableData.swift in Sources */,
+				353A85A71E6B791400278195 /* TagsColorsTableViewController.swift in Sources */,
 				353A85751E6B786F00278195 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
