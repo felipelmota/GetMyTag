@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CF8D1E127CD4EDE72C9F77F /* Pods_GetMyTagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC7218494CAA1D8D898393E /* Pods_GetMyTagUITests.framework */; };
 		353A85751E6B786F00278195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85741E6B786F00278195 /* AppDelegate.swift */; };
 		353A85771E6B786F00278195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85761E6B786F00278195 /* ViewController.swift */; };
 		353A857A1E6B786F00278195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353A85781E6B786F00278195 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 		353A85A71E6B791400278195 /* TagsColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85A31E6B791400278195 /* TagsColorsTableViewController.swift */; };
 		353A85A81E6B791400278195 /* PhotoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85A41E6B791400278195 /* PhotoColor.swift */; };
 		353A85A91E6B791400278195 /* TagsColorTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A85A51E6B791400278195 /* TagsColorTableData.swift */; };
+		7BF5CDE3216A093D7065BD50 /* Pods_GetMyTag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D89B1633A6FDF890DFE264 /* Pods_GetMyTag.framework */; };
+		AAA942A094046B54B3D4CAAE /* Pods_GetMyTagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE49D770F76F2A0764C5BE87 /* Pods_GetMyTagTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2696153B6200A323059D3C9D /* Pods-GetMyTagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMyTagUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetMyTagUITests/Pods-GetMyTagUITests.release.xcconfig"; sourceTree = "<group>"; };
 		353A85711E6B786F00278195 /* GetMyTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetMyTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		353A85741E6B786F00278195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		353A85761E6B786F00278195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,14 @@
 		353A85A31E6B791400278195 /* TagsColorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsColorsTableViewController.swift; sourceTree = "<group>"; };
 		353A85A41E6B791400278195 /* PhotoColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoColor.swift; sourceTree = "<group>"; };
 		353A85A51E6B791400278195 /* TagsColorTableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsColorTableData.swift; sourceTree = "<group>"; };
+		576355623A9971DCC32234A7 /* Pods-GetMyTagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMyTagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetMyTagTests/Pods-GetMyTagTests.release.xcconfig"; sourceTree = "<group>"; };
+		966E9E3F28AC1681A9D483FF /* Pods-GetMyTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMyTag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetMyTag/Pods-GetMyTag.debug.xcconfig"; sourceTree = "<group>"; };
+		A4D89B1633A6FDF890DFE264 /* Pods_GetMyTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetMyTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2506081DCFF1AC588798626 /* Pods-GetMyTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMyTag.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetMyTag/Pods-GetMyTag.release.xcconfig"; sourceTree = "<group>"; };
+		E262F810C99A3F4902C111F3 /* Pods-GetMyTagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMyTagUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetMyTagUITests/Pods-GetMyTagUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE49D770F76F2A0764C5BE87 /* Pods_GetMyTagTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetMyTagTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DA4CE488C4215D35B5CCAF /* Pods-GetMyTagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMyTagTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetMyTagTests/Pods-GetMyTagTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC7218494CAA1D8D898393E /* Pods_GetMyTagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetMyTagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF5CDE3216A093D7065BD50 /* Pods_GetMyTag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA942A094046B54B3D4CAAE /* Pods_GetMyTagTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF8D1E127CD4EDE72C9F77F /* Pods_GetMyTagUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,8 @@
 				353A85881E6B786F00278195 /* GetMyTagTests */,
 				353A85931E6B786F00278195 /* GetMyTagUITests */,
 				353A85721E6B786F00278195 /* Products */,
+				4ADF70E92582C96D9D1175FB /* Pods */,
+				80B125B1E8E34B82CEF6E55E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +154,29 @@
 			path = GetMyTagUITests;
 			sourceTree = "<group>";
 		};
+		4ADF70E92582C96D9D1175FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				966E9E3F28AC1681A9D483FF /* Pods-GetMyTag.debug.xcconfig */,
+				B2506081DCFF1AC588798626 /* Pods-GetMyTag.release.xcconfig */,
+				F8DA4CE488C4215D35B5CCAF /* Pods-GetMyTagTests.debug.xcconfig */,
+				576355623A9971DCC32234A7 /* Pods-GetMyTagTests.release.xcconfig */,
+				E262F810C99A3F4902C111F3 /* Pods-GetMyTagUITests.debug.xcconfig */,
+				2696153B6200A323059D3C9D /* Pods-GetMyTagUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80B125B1E8E34B82CEF6E55E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D89B1633A6FDF890DFE264 /* Pods_GetMyTag.framework */,
+				EE49D770F76F2A0764C5BE87 /* Pods_GetMyTagTests.framework */,
+				FAC7218494CAA1D8D898393E /* Pods_GetMyTagUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353A85991E6B786F00278195 /* Build configuration list for PBXNativeTarget "GetMyTag" */;
 			buildPhases = (
+				F9BBD5F86FE4F7D4476EDE04 /* [CP] Check Pods Manifest.lock */,
 				353A856D1E6B786F00278195 /* Sources */,
 				353A856E1E6B786F00278195 /* Frameworks */,
 				353A856F1E6B786F00278195 /* Resources */,
+				C407DA7A55E33027C04A78AC /* [CP] Embed Pods Frameworks */,
+				DF591D38D173E50B53A51C9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353A859C1E6B786F00278195 /* Build configuration list for PBXNativeTarget "GetMyTagTests" */;
 			buildPhases = (
+				2DE2DE93F43DAD04B30D5F5A /* [CP] Check Pods Manifest.lock */,
 				353A85811E6B786F00278195 /* Sources */,
 				353A85821E6B786F00278195 /* Frameworks */,
 				353A85831E6B786F00278195 /* Resources */,
+				D6FA7658201EC6C099788F1D /* [CP] Embed Pods Frameworks */,
+				0B9634C57D2793F49F1CC792 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353A859F1E6B786F00278195 /* Build configuration list for PBXNativeTarget "GetMyTagUITests" */;
 			buildPhases = (
+				39F089D5BE170128550A6FF4 /* [CP] Check Pods Manifest.lock */,
 				353A858C1E6B786F00278195 /* Sources */,
 				353A858D1E6B786F00278195 /* Frameworks */,
 				353A858E1E6B786F00278195 /* Resources */,
+				D11C844BBECDE55EACB7D361 /* [CP] Embed Pods Frameworks */,
+				37EC831770AA2F897A15E74A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +314,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B9634C57D2793F49F1CC792 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMyTagTests/Pods-GetMyTagTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DE2DE93F43DAD04B30D5F5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37EC831770AA2F897A15E74A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMyTagUITests/Pods-GetMyTagUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39F089D5BE170128550A6FF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C407DA7A55E33027C04A78AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMyTag/Pods-GetMyTag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11C844BBECDE55EACB7D361 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMyTagUITests/Pods-GetMyTagUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FA7658201EC6C099788F1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMyTagTests/Pods-GetMyTagTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF591D38D173E50B53A51C9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMyTag/Pods-GetMyTag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9BBD5F86FE4F7D4476EDE04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		353A856D1E6B786F00278195 /* Sources */ = {
@@ -426,6 +613,7 @@
 		};
 		353A859A1E6B786F00278195 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966E9E3F28AC1681A9D483FF /* Pods-GetMyTag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GetMyTag/Info.plist;
@@ -438,6 +626,7 @@
 		};
 		353A859B1E6B786F00278195 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2506081DCFF1AC588798626 /* Pods-GetMyTag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GetMyTag/Info.plist;
@@ -450,6 +639,7 @@
 		};
 		353A859D1E6B786F00278195 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8DA4CE488C4215D35B5CCAF /* Pods-GetMyTagTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +654,7 @@
 		};
 		353A859E1E6B786F00278195 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576355623A9971DCC32234A7 /* Pods-GetMyTagTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +669,7 @@
 		};
 		353A85A01E6B786F00278195 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E262F810C99A3F4902C111F3 /* Pods-GetMyTagUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GetMyTagUITests/Info.plist;
@@ -491,6 +683,7 @@
 		};
 		353A85A11E6B786F00278195 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2696153B6200A323059D3C9D /* Pods-GetMyTagUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GetMyTagUITests/Info.plist;
@@ -521,6 +714,7 @@
 				353A859B1E6B786F00278195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		353A859C1E6B786F00278195 /* Build configuration list for PBXNativeTarget "GetMyTagTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +723,7 @@
 				353A859E1E6B786F00278195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		353A859F1E6B786F00278195 /* Build configuration list for PBXNativeTarget "GetMyTagUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +732,7 @@
 				353A85A11E6B786F00278195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
